@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<html>
+    <head>
+        <title>Kochen</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    </head>
+    <body>
+      
+      <div class="Kochen">
+      
+        <!-----------------------------Beginn obere Leiste --------------------------------->
+
+      <div class="oberesBanner"> 
+            <a> 
+                <img id="logo" src="bilder/Logo.png" width="100px;">
+                
+                <div class="rechterTeil">
+                <div class="rechtsbündig-1"><a href="index.html"> <img src="bilder/Homebutton.png" width="100px"></a></div>
+                <div class="rechtsbündig-2"><a id="rechtsbündig" href="Über_Uns.html"> <img src="bilder/ÜberUns.png" width="100px"></a> </div>
+                </div>
+            </a>
+        </div>
+
+        <!-----------------------------Ende obere Leiste ---------------------------------->
+
+       
+       
+        <div class="KochenA">
+
+          <h1 id=Kochen1> Kochen </h1>
+          <p class="Kochen2"> Kochen ist eine wichtige mechanik in Zelda tears of the kingdom.
+            Essen kann einen heilen, einem Zusatzefekte gewähren oder auch einfach nur witzig sein, wie wenn man
+            sich auf entspannt eine Pizza Kocht. Das Spiel erklärt diese Mechaniken auch teils, aber es gibt 
+            einige Tipps die dir das Spiel nicht verrät. darum geht es jetzt in diesem Artikel, viel Spaß.
+          </p>
+       </div> 
+        
+       <div class="KochenB">
+
+          <h1 id="Kochen3">Kochen bei Blutmond mit?!</h1>
+
+       </div>
+       
+       <div class="KochenC">
+
+           <p class="Kochen2">
+               Das klingt vielleicht absurd, ist aber einer der besten Tipps, die es zum Kochen gibt (direkt
+               hinter dem Fakt, dass du dir ein tatsächlich alkoholisches Getränk kochen kannst, aber dazu später mehr). Kochen
+               während des Blutmondes ist unfassbar wichtig. In Zelda Tears of the Kingdom gibt es beim Kochen eine Mechanik,
+               durch die man zu einer geringen Chance ein besseres Gericht bekommt. So kann man zum Beispiel mit Glück mit dem
+               gleichen Rezept ein Gericht, was vier statt zwei Herzen heilt, bekommen. Was viele nicht Wissen ist, dass
+               diese Chance bei Blutmond deutlich höher ist. Diese erhöhte Chance funktioniert allerdings nur bis zur Blutmond Animation
+               also nur in der Zeit zwischen Mondaufgang und Mitternacht. Besonders nützlich ist es für Maxi Rezepte, da der Bonus auch für diese funktioniert.
+               Er funktioniert allerdings nicht für Dinge wie Angriffs Verstärkungen und andere Effekte.
+           </p>
+       </div>
+
+       <p class="Kochen2">
+           Es gibt viele absurde Gerichte in Zelda Totk. So zum beispiel der bereits angesprochene Drink mit
+           Alkohol namens vaai will vooi, der gerne von den Gerudo getrunken wird. Hergestellt wird er mit
+           einer Frostmelone, einer Palmfrucht, einem Brocken Steinsalz und einer Zitterfrucht. Wer eher etwas
+           "normaleres" braucht kann sich aus Hateno-Käse, Hyrule-Tomate und Tabanta-Weizen eine Pizza machen.
+       </p>
+
+       </div>
+
+    </div>
+
+    <div id="impressum-container"></div>
+
+<script>
+  fetch("impressum-snippet.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("impressum-container").innerHTML = data;
+    });
+</script>
+
+    </body>
+
+    <style>
+      body{
+        background-color: rgb(157, 211, 187);
+      }
+    </style>
+</html>

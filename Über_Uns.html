@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+<html>
+    <head>
+        <title>Über Uns</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+    </head>
+    <body>
+      
+     <!-----------------------------Anfang obere Leiste ---------------------------------->
+
+     <div class="oberesBanner"> 
+            <a> 
+                <img id="logo" src="bilder/Logo.png" width="100px;">
+                
+                <div class="rechterTeil">
+                <div class="rechtsbündig-1"><a href="index.html"> <img src="bilder/Homebutton.png" width="100px"></a></div>
+                <div class="rechtsbündig-2"><a id="rechtsbündig" href="Über_Uns.html"> <img src="bilder/ÜberUns.png" width="100px"></a> </div>
+                </div>
+            </a>
+        </div>
+
+    <!-----------------------------Ende obere Leiste ---------------------------------->
+
+        <h2>Über uns</h2>
+        <h1>Unter uns</h1>
+
+        
+
+    <p>Hey, willkommen bei uns!
+    Wir sind zwei ganz normale Jugendliche, die total auf Zelda: Tears of the Kingdom abfahren – und das aus ganz einfachen Gründen: Wir lieben das Spiel, die Welt und die Abenteuer, die es bietet. Weil wir es aber ehrlich gesagt ziemlich nervig fanden, wie schwer es manchmal ist, 
+    verlässliche Grundinfos an einer Stelle zu finden, haben wir beschlossen: „Mach doch selbst eine Website!“ Gesagt, getan – und hier sind wir jetzt. Kein großes Studio, kein Profi-Team, sondern einfach zwei Fans, die mit Herzblut und jeder Menge Motivation eine kleine Ecke für Zelda-Fans schaffen wollen.
+    </p>
+
+    <h3>Wer steckt hinter dem Projekt?</h3>
+
+
+    <p>
+    Wir sind zwei Jugendliche, die eigentlich ganz normale Leben führen – Schule, Hobbys, das Übliche eben. Trotzdem bleibt immer Zeit für Zelda. Ob beim Abendessen, in der Pause oder mitten in der Nacht: Das Spiel lässt uns nicht mehr los. Zwischen den ganzen Hausaufgaben, 
+    Freunden und manchmal auch nervigen Alltagsdingen sind wir quasi heimliche Helden hinter dieser Seite. Wir versuchen, alles so verständlich und hilfreich wie möglich zu machen – ohne großen Schnickschnack, aber mit viel Liebe zum Detail.
+    </p>
+
+    <h3>Warum machen wir das?</h3>
+
+    <p>
+    Ganz ehrlich: Weil wir es einfach super finden, unser Wissen zu teilen und anderen den Einstieg ins Spiel zu erleichtern. Es gibt zwar viele Seiten und Videos da draußen, aber oft sind die Infos entweder zu kompliziert, zu verstreut oder einfach nicht das, was wir uns gewünscht hätten, 
+    als wir angefangen haben. Mit unserer Seite wollen wir genau das ändern: Einfache, klare Grundinformationen, die wirklich jeder checkt – egal ob du noch ganz neu im Spiel bist oder schon ein bisschen Erfahrung hast.
+    </p>
+
+    <p>
+    Außerdem macht es einfach Spaß! Auch wenn es „nur“ ein kleines Projekt ist, steckt da jede Menge Herz drin. Wir lernen dabei selbst ständig dazu, tüfteln an der Website und freuen uns riesig, wenn wir merken, dass unsere Arbeit auch anderen hilft.
+    </p>
+
+    <h3>Was kannst du hier erwarten?</h3>
+
+    <p>
+    Ganz viel Basics! Von den ersten Schritten im Spiel über wichtige Mechaniken bis hin zu Tipps, die dir das Leben in Hyrule leichter machen. Keine ellenlangen Theorien oder komplizierten Guides – dafür aber klare und gut strukturierte Infos, die dich schnell weiterbringen. 
+    </p>
+
+    <p>Wir wollen eine Seite schaffen, die Spaß macht, nützlich ist und sich nicht zu ernst nimmt – genau wie wir selbst.</p>
+
+<div id="impressum-container"></div>
+
+<script>
+  fetch("impressum-snippet.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("impressum-container").innerHTML = data;
+    });
+</script>
+
+    </body>
+</html>
+

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="de">
+<html>
+    <head>
+        <title>Untergrund</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+    </head>
+    <body>
+      
+     <!-----------------------------Anfang obere Leiste ---------------------------------->
+
+     <div class="oberesBanner"> 
+            <a> 
+                <img id="logo" src="bilder/Logo.png" width="100px;">
+                
+                <div class="rechterTeil">
+                <div class="rechtsbündig-1"><a href="index.html"> <img src="bilder/Homebutton.png" width="100px"></a></div>
+                <div class="rechtsbündig-2"><a id="rechtsbündig" href="Über_Uns.html"> <img src="bilder/ÜberUns.png" width="100px"></a> </div>
+                </div>
+            </a>
+        </div>
+
+    <!-----------------------------Ende obere Leiste ---------------------------------->
+        <h1>Untergrund</h1>
+
+    <div class="container">
+    <div class="image-column">
+        <img id="Bild" src="bilder/Untergrund1.jpeg" width="50%">
+    </div>
+
+    <div class="text-column">
+        <h2>Erkundung</h2>
+        
+        <p>
+            Im Untergrund gibt es einige Probleme bei der Erkundung: großflächiges Miasma, Dunkelheit und dazu noch das Gelände.
+        <p>
+            Fangen wir mit dem Miasma an. Es ist immer nervig, wenn man einen Weg sucht, und es nur den einen Durchgang gibt, der aber vollkommen mit Miasma ausgefüllt ist. 
+            Im Untergrund ist dies aber leider nicht selten. Um trotzdem daran vorbei zu kommen gibt es mehrere Möglichkeiten. 
+            <ol>
+                <li> Man kann auf den fünften Weisen steigen und bekommt keinen Miasmaschaden</li>
+                <li> Man kann sich ein Gefährt mit entsprechenden Kapseln oder der Bauautomatik bauen</li>
+                <li> Man nimmt den Schaden in Kauf, weil man genug Miasma heilendes Essen hat, oder in der nähe eine Lichtwurzel ist.</li>
+            </ol>
+        </p>
+        <p>
+            Kommen wir zum nächsten Problem, der Dunkelheit, der allseits gehasste Feind bei Kämpfen und Erkundung. Im Untergrund ist es nicht nur ein bisschen schummrig, wie an der Oberfläche bei Nacht, 
+            sondern wenn man nichts macht, ist es stockdunkel. Um dieses Problem zu lösen kann man entweder Leuchtsamen Werfen, weilche je nach dem, ob man große oder kleine wirft einen mittel, bis sehr großen Raum aussleuchten,
+            eine Leuchtrüstung tragen, die die Umgebung um einen herum ausleuchtet, mit einem Fahrzeug fahren, dass Scheinwerfer hat, oder wenn man Glüvck hat, hat man schon eine Lichtwurzel in der Nähe Aktiviert, welche dann die Umgebung ausleuchtet.
+        </p>
+        <p>
+            Auch das Gelände ist im Untergrund sehr nervig, obwohl es eigentlich nur das Gegenteil von der Oberfläche ist: wenn auf der Oberfläche ein Berg ist, ist im Untergrund ein Tal und wenn im Untergrund ein Gebirge ist, ist auf der Oberfläche ein Tal.
+            Also sollte es doch eigenlich nicht so schwierig sein, was es aber ist. Es wird dadurch so schwierig, da es viele große Gebirge au der Oberfläche gigt, wodurch richtig tiefe Schluchten im Untergrund entstehen, so z. B. unter der Gerudo Hochebene.
+            Dann solche wirklich tiefen Schluchten außen wieder hochzuklettern ist schwierig, besonders bei Dunkelheit und wenn man nicht die Karte der Oberfläche hat, an der man sich auch ein bisschen orientieren kann.
+        </p>
+        
+    </div>
+    </div>
+
+    <div class="container">
+    <div class="image-column">
+        <img id="Bild" src="bilder/Aufstieg SchlossHyrule1.jpg" width="50%">
+    </div>
+
+    <div class="text-column">
+        <h2>Miasma</h2>
+        
+        <p>
+        Miasma ist eine finstere, zähflüssige Substanz, die mit der Rückkehr Ganondorfs in die Welt trat. Es durchzieht den Untergrund von Hyrule wie ein uralter Fluch und 
+        entstammt Ganondorf.
+        <p>
+        Überall, wo es sich ausbreitet, verdirbt es Leben. Pflanzen verdorren, Tiere werden wild, Menschen erkranken. Besonders gefährlich ist es für Link: 
+        Berührt er es direkt, werden seine Herzen dauerhaft geschwächt eine klare Warnung, dass dieses Übel nicht mit normaler Heilung bekämpft werden kann. 
+        Erst wenn er an die Oberfläche geht, eine Lichtwurzel im Untergrund aufsucht, oder spezielles Essen isst, werden die Herzen wieder freigeschaltet
+        </p>
+        <p>
+        Miasma quillt nicht nur aus Rissen im Boden, sondern auch aus Kreaturen, die von ihm durchdrungen wurden. In den Tiefen begegnet Link Wesen, 
+        die vollständig vom Miasma umhüllt sind. Besonders mächtige Gegner, sogenannte „Phantomwesen“ oder Schattenversionen, 
+        entstehen durch diese Verderbnis. Außerdem sind die meisten Gegner im Untergrund mit Miasma überzogen und machen auch Miasmaschaden.
+        </p>
+        <p>
+        Wie angedeutet gibt es auch im Untergrund Orte, an denen er wieder Herzen entsperren kann, die Lichtwurzeln. Diese sind recht regelmäßig im Untergrund verteilt, denn sie dienen 
+        der Kartograftie. Wenn man eine Wurzel aktiviert, erhält man die Karte, der nahen Umgebung und diese wird auch beleuchtet.
+        </p>
+        <p>
+        Funfact: Wusstest du, dass die Lichtwurzeln immer unter Schreinen sind und über einer Lichtwurzel immmer ein Schrein ist? Deshalb gibt es auch keine Schreine im Untergrund.
+        </p>
+    </div>
+    </div>
+
+
+    <div id="impressum-container"></div>
+
+<script>
+  fetch("impressum-snippet.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("impressum-container").innerHTML = data;
+    });
+</script>
+
+    </body>
+
+    <style>
+
+        body{
+            background-color: rgb(162, 104, 216);
+        }
+        
+    .image-column img {
+        width: 100%;
+        max-width: 300px;
+        border: 3px solid #a60b87;
+        border-radius: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+        background-color: rgba(141, 5, 5, 0.92);
+        margin: 40px auto;
+        border: 2px solid #a60b87;
+        border-radius: 12px;
+        max-width: 1000px;
+        box-shadow: 0 0 20px rgba(90, 65, 20, 0.3);
+    }
+    
+    </style>
+</html>

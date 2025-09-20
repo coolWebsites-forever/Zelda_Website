@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Startseite</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+    </head>
+    <body>
+
+<!-----------------------------Anfang obere Leiste ---------------------------------->
+
+        <div class="oberesBanner"> 
+            <a> 
+                <img id="logo" src="bilder/Logo.png" width="100px;">
+                
+                <div class="rechterTeil">
+                <div class="rechtsbündig-1"><a href="index.html"> <img src="bilder/Homebutton.png" width="100px"></a></div>
+                <div class="rechtsbündig-2"><a id="rechtsbündig" href="Über_Uns.html"> <img src="bilder/ÜberUns.png" width="100px"></a> </div>
+                </div>
+            </a>
+        </div>
+
+<!-----------------------------Ende obere Leiste ---------------------------------->
+
+        <center> <h1>Zelda Tears of the kingdom - Website</h1> </center>
+
+        <p> Willkommen auf dieser wunderschönen Website über Zelda - Tears of the Kingdom. Auf dieser Website informieren wir euch über das nötigste.</p>
+
+        <a id="RotMakiert"><p>!!!Achtung!!! Diese Website enthält Spoiler</p></a>
+
+    
+        <div class="LinksZuHauptthemen">
+        <div>
+            <a id="LinksZuHauptthemen" href="himmelsinseln.html"> <img src="bilder/himmelsinseln.jpeg" width=40% ></a>
+            <a id="LinksZuHauptthemen" href="geschichte.html"> <img src="bilder/Sonia und Rauru1.jpeg" width=40%></a>
+            <a id="LinksZuHauptthemen" href="Kampf.html"> <img src="bilder/Kampf2.jpeg"width=40%></a>
+        
+            <a id="LinksZuHauptthemen" href="Kochen.html"> <img src="bilder/Kochen1.jpeg" width=40%></a>
+            <a id="LinksZuHauptthemen" href="untergrund.html"> <img src="bilder/Abgrund.jpeg"width=40%></a>
+            <a id="LinksZuHauptthemen" href="bosse.html"> <img src="bilder/Bosse.jpeg"width=40%></a>
+        </div> 
+        </div>
+
+
+        
+        <div id="impressum-container"></div>
+
+<script>
+  fetch("impressum-snippet.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("impressum-container").innerHTML = data;
+    });
+</script>
+    </body>
+</html>
